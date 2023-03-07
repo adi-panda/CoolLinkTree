@@ -18,14 +18,11 @@ body {
 
 .links{
   position: absolute;
-  top: 50%;
-  bottom: 50%;
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 1.25rem;
   
 }
 
@@ -49,10 +46,10 @@ h1 {
 
   text-align: center;
   align-items: center;
+  justify-content: center;
   
   font-size: 16px;
-  width: 20rem;
-  padding-left: 6.2rem;
+  width: 18rem;
   padding-top: 0.6rem;
   padding-bottom: 0.6rem;
   border-radius: 25px;
@@ -64,9 +61,8 @@ h1 {
   background-color: #0000000e;
   align-items: center;
   text-align: center;
-  padding-left: 7rem;
 
-  width: 22rem;
+  width: 20rem;
 
   transform: scale(1.2);
   transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 1s;  
